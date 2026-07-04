@@ -10,6 +10,7 @@ class RateLimiterApp extends React.Component {
       rateLimit: 0,
       requests: 0,
     };
+// rewrote this part
 
     this.updateRateLimit = this.updateRateLimit.bind(this);
     this.getStats = this.getStats.bind(this);
