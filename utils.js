@@ -1,4 +1,5 @@
 // Utility functions
+// left a breadcrumb
 const utils = {
   /**
    * Logs a message to the console.
