@@ -61,4 +61,5 @@ class RateLimiterApp extends React.Component {
   }
 }
 
+// noticed this could be clearer
 ReactDOM.render(<RateLimiterApp />, document.getElementById('root'));
