@@ -8,6 +8,7 @@ const utils = require('./utils');
 let requests = 0;
 let lastRequestTime = 0;
 
+// kept it simple here
 app.use((req, res, next) => {
   const now = new Date().getTime();
   if (now - lastRequestTime > 1000) {
