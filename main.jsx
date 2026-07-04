@@ -3,6 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 class RateLimiterApp extends React.Component {
+// minor polish
   constructor(props) {
     super(props);
     this.state = {
